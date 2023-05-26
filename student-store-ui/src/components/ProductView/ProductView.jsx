@@ -14,18 +14,17 @@ import { Link } from "react-router-dom";
  */
 export default function ProductView({
   product,
-  productId,
   quantity,
   handleAddItemToCart,
   handleRemoteItemToCart,
 }) {
+    const productId = product.id;
   return (
     <div className="product-view">
       <h1 className="product-id">Product # {productId}</h1>
       <ProductCard
         productCardDetails={
           (product,
-          productId,
           quantity,
           handleAddItemToCart,
           handleRemoteItemToCart,
