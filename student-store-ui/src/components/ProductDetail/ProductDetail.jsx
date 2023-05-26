@@ -44,7 +44,6 @@ export default function ProductDetail({
       ) : product ? (
         <ProductView
           product={product}
-          productId={productId}
           quantity={product.quantity}
           handleAddItemToCart={handleAddItemToCart}
           handleRemoveItemToCart={handleRemoveItemToCart}
