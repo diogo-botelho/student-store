@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 /** ProductView component
  *
- * Takes the prop productCardDetails, an object with the following properties:
+ * Takes the following props:
  * product - product object.
  * productId - number representing the id of the product.
  * quantity - quantity for this product found in the shoppingCart.
